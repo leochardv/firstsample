@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello JS</title>
+    <style>
+        body {font-size: 14pt; font-weight:normal; font-family: sans-serif;}
+        h1 {
+            color: white; padding: 5px; font-size: 24pt; background-color: red;
+        }
+        .gu {color: red;}
+        .ki {color: blue;}
+        .No {color: red; font-weight: bold;}
+        .head {color: blue; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <script src="./js/hello.js"></script>
+    <script>
+        // 関数のテスト
+        document.write("<h3>シンプルな関数</h3>")
+        writeMsg('Hello');
+        writeMsg('これは、メッセージの表示例です。');
+        writeMsg('関数を使えば、たくさんのメッセージを簡単に表示できます。');
+        fn('これは関数の変数を使ったメッセージです。');
+
+        // 連想配列を使った関数
+        document.write("<h3>連想配列を使った関数</h3>")
+        syohi_zei.price_ex_tax = 12800;
+        syohi_zei.kingaku();
+        syohi_zei.zeigaku();
+        syohi_zei.zeikomi();    
+    </script>
+
+
+
+</body>
+</html>
